@@ -1,0 +1,8 @@
+body{
+  background-image: url("/public/images/home-background.png");
+  /* background-color: black; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;;
+}
