@@ -44,6 +44,7 @@ import "slick-carousel/slick/slick-theme.css";
         button {
           opacity: 1; 
           z-index: 1;
+
           &:hover{
             opacity: 1;
           }
