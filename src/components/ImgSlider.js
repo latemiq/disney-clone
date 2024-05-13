@@ -50,8 +50,6 @@ import "slick-carousel/slick/slick-theme.css";
         }
   `
   const Wrap = styled.div`
-    width: 1800px;
-    height: 600px;
     cursor: pointer;
     img{
       width: 100%;
