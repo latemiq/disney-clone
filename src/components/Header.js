@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Nav = styled.div`
+  position: sticky;
   width: 100%;
   height: 70px;
   color: white;

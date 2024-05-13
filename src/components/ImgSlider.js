@@ -22,18 +22,36 @@ import "slick-carousel/slick/slick-theme.css";
         color: rgb(150, 158, 171);
       }
     }
-
+    .slick-next{
+      padding-left: 2px;
+    }
+    .slick-next, .slick-prev{
+      transform: scaleX(1.5) scaleY(6);
+      opacity: 0;
+      &:before{
+        color: #ffffff30;
+      }
+    }
+    li.slick-active{
+      color: white;
+    }
       li.slick-active button:before {
         color: white;
       }
         .slick-list {
           overflow: visible;
         }
-        button { 
+        button {
+          opacity: 1; 
           z-index: 1;
+          &:hover{
+            opacity: 1;
+          }
         }
   `
   const Wrap = styled.div`
+    width: 1800px;
+    height: 600px;
     cursor: pointer;
     img{
       width: 100%;

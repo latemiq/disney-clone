@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider.js';
+import Viewers from './Viewers.js';
+import Movies from './Movies.js';
 
 
 
@@ -8,6 +10,8 @@ import ImgSlider from './ImgSlider.js';
         return (
             <Container>
                 <ImgSlider />
+                <Viewers />
+                <Movies />
             </Container>
         )
     }
